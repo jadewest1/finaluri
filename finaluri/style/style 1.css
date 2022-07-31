@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(255, 51, 0);
+}
+
+.one {
+    width: 800px;
+    height: 800px;
+    margin-bottom: 650px;
+}
+.two{
+    color: white;
+    display: inline-block;
+    margin-left: 950px;
+    top: 550px;
+    font-size: 20px;
+
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Tapestry', cursive;
+    font-family: 'Vujahday Script', cursive;
+    font-family: 'Yellowtail', cursive;
+}
+h1{
+    display: inline-block;
+    text-align: left;
+    font-size: 36px; 
+}
+.three{
+    display: inline-block;
+    color: black;
+    left: 50px;
+    top: 50px; 
+    font-size: 16px;
+}
+
+.gallery{
+    text-align: left;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+}
+
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+ 
+a{
+    color:black;
+    display: inline-block;
+    margin-left: 950px;
+    top: 550px;
+    margin-bottom: 9px;
+    font-size: 20px;
+}

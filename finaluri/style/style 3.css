@@ -1,0 +1,30 @@
+body{
+    background-color: white;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+h1{
+    text-align:center ;
+    color: #000000;
+}
+  h3{
+    text-align:center ;
+    color: #000000;
+}
+button{
+    background-color: blue;
+    color: white;
+    margin-left: 750px;
+}
+
+.material-symbols-outlined{
+    color: green;
+    margin-left: 750px;
+}

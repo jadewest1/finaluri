@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>registration </title>
+        <link rel="stylesheet" href="style/style 4.css">
+    </head>
+
+
+    <body>
+        <h1>chess experience</h1>
+        <div class="dropdown">
+            <button class="dropbtn">level of knowledge</button>
+            <div class="levels">
+            <a href="">beginner</a>
+            <a href="">intermediate</a>
+            <a href="">professional</a>
+        </div>
+        </div>
+    </head>
+ 
+        <script>
+                var req = new XMLHttpRequest(); 
+    
+                req.addEventListener('load', function(){
+                console.log(this.responseText)
+                })
+    
+                req.addEventListener('error', function(){
+                    console.log('error');
+                })
+    
+                req.open('GET',"https://reqres.in/api/users?page=2" ) 
+    
+               req.send()
+
+        </script>
+
+    <div style="float: left">
+    <img src="pic3.png">
+    </div>
+
+    </body>
